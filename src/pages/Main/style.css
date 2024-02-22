@@ -1,0 +1,35 @@
+.screenContainer{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(54, 54, 54);
+}
+
+.mainPokedexList{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.pagination span {
+    background-color: red;
+    color: white;
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.pagination span:hover{
+    background-color: rgb(175, 3, 3);
+}
